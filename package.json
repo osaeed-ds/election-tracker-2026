@@ -1,0 +1,42 @@
+{
+  "name": "election-tracker-2026",
+  "version": "1.0.0",
+  "description": "Personal, local election night tracker for U.S. House, Senate, and Gubernatorial races.",
+  "main": "server/server.js",
+  "scripts": {
+    "dev": "concurrently -n \"SERVER,CLIENT\" -c \"blue,green\" \"node server/server.js\" \"vite\"",
+    "build": "vite build",
+    "start": "PORT=3000 node server/server.js",
+    "server": "node server/server.js",
+    "client": "vite"
+  },
+  "keywords": [
+    "election",
+    "tracker",
+    "2026",
+    "dashboard",
+    "civicapi",
+    "politics"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "clsx": "^2.1.1",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "lucide-react": "^1.16.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "tailwind-merge": "^3.0.2"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.3.4",
+    "@tailwindcss/vite": "^4.3.4",
+    "@vitejs/plugin-react": "^4.3.4",
+    "autoprefixer": "^10.4.20",
+    "concurrently": "^9.1.2",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^4.3.4",
+    "vite": "^6.2.0"
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "election": {
+    "title": "2026 U.S. General Election Night Tracker",
+    "date": "2026-11-03",
+    "timezone": "America/New_York",
+    "description": "Personal unofficial live results dashboard for U.S. House, Senate, and Gubernatorial contests."
+  },
+  "settings": {
+    "browserPollIntervalMs": 120000,
+    "serverCacheTtlSeconds": 120,
+    "maxUpstreamRequestsPerHour": 60,
+    "retryBackoffBaseMs": 5000,
+    "retryMaxAttempts": 3
+  },
+  "baselines": {
+    "house": {
+      "starting": { "R": 0, "D": 0, "I": 0, "O": 0 },
+      "onBallot": 435,
+      "totalSeats": 435,
+      "majority": 218
+    },
+    "senate": {
+      "starting": { "R": 31, "D": 32, "I": 2, "O": 0 },
+      "onBallot": 35,
+      "totalSeats": 100,
+      "majority": 51,
+      "notes": "Includes 33 regular seats and Florida & Ohio special elections; 2 Independents counted as Independent."
+    },
+    "governor": {
+      "starting": { "R": 9, "D": 5, "I": 0, "O": 0 },
+      "onBallot": 36,
+      "totalSeats": 50,
+      "majority": 26
+    }
+  },
+  "watchlists": {
+    "house": [
+      { "district": "IN-01", "state": "IN", "closeTimeET": "18:00", "closeInstant": "2026-11-03T18:00:00-05:00" },
+      { "district": "IN-05", "state": "IN", "closeTimeET": "18:00", "closeInstant": "2026-11-03T18:00:00-05:00" },
+      { "district": "KY-06", "state": "KY", "closeTimeET": "18:00", "closeInstant": "2026-11-03T18:00:00-05:00" },
+      { "district": "FL-07", "state": "FL", "closeTimeET": "19:00", "closeInstant": "2026-11-03T19:00:00-05:00" },
+      { "district": "FL-09", "state": "FL", "closeTimeET": "19:00", "closeInstant": "2026-11-03T19:00:00-05:00" },
+      { "district": "FL-14", "state": "FL", "closeTimeET": "19:00", "closeInstant": "2026-11-03T19:00:00-05:00" },
+      { "district": "FL-22", "state": "FL", "closeTimeET": "19:00", "closeInstant": "2026-11-03T19:00:00-05:00" },
+      { "district": "FL-25", "state": "FL", "closeTimeET": "19:00", "closeInstant": "2026-11-03T19:00:00-05:00" },
+      { "district": "FL-27", "state": "FL", "closeTimeET": "19:00", "closeInstant": "2026-11-03T19:00:00-05:00" },
+      { "district": "GA-01", "state": "GA", "closeTimeET": "19:00", "closeInstant": "2026-11-03T19:00:00-05:00" },
+      { "district": "GA-02", "state": "GA", "closeTimeET": "19:00", "closeInstant": "2026-11-03T19:00:00-05:00" },
+      { "district": "SC-01", "state": "SC", "closeTimeET": "19:00", "closeInstant": "2026-11-03T19:00:00-05:00" },
+      { "district": "SC-02", "state": "SC", "closeTimeET": "19:00", "closeInstant": "2026-11-03T19:00:00-05:00" },
+      { "district": "VA-01", "state": "VA", "closeTimeET": "19:00", "closeInstant": "2026-11-03T19:00:00-05:00" },
+      { "district": "VA-05", "state": "VA", "closeTimeET": "19:00", "closeInstant": "2026-11-03T19:00:00-05:00" },
+      { "district": "VA-07", "state": "VA", "closeTimeET": "19:00", "closeInstant": "2026-11-03T19:00:00-05:00" },
+      { "district": "NC-01", "state": "NC", "closeTimeET": "19:30", "closeInstant": "2026-11-03T19:30:00-05:00" },
+      { "district": "NC-05", "state": "NC", "closeTimeET": "19:30", "closeInstant": "2026-11-03T19:30:00-05:00" },
+      { "district": "NC-09", "state": "NC", "closeTimeET": "19:30", "closeInstant": "2026-11-03T19:30:00-05:00" },
+      { "district": "NC-11", "state": "NC", "closeTimeET": "19:30", "closeInstant": "2026-11-03T19:30:00-05:00" },
+      { "district": "OH-01", "state": "OH", "closeTimeET": "19:30", "closeInstant": "2026-11-03T19:30:00-05:00" },
+      { "district": "OH-07", "state": "OH", "closeTimeET": "19:30", "closeInstant": "2026-11-03T19:30:00-05:00" },
+      { "district": "OH-09", "state": "OH", "closeTimeET": "19:30", "closeInstant": "2026-11-03T19:30:00-05:00" },
+      { "district": "OH-10", "state": "OH", "closeTimeET": "19:30", "closeInstant": "2026-11-03T19:30:00-05:00" },
+      { "district": "OH-13", "state": "OH", "closeTimeET": "19:30", "closeInstant": "2026-11-03T19:30:00-05:00" },
+      { "district": "ME-02", "state": "ME", "closeTimeET": "20:00", "closeInstant": "2026-11-03T20:00:00-05:00" },
+      { "district": "MI-04", "state": "MI", "closeTimeET": "20:00", "closeInstant": "2026-11-03T20:00:00-05:00" },
+      { "district": "MI-07", "state": "MI", "closeTimeET": "20:00", "closeInstant": "2026-11-03T20:00:00-05:00" },
+      { "district": "MI-10", "state": "MI", "closeTimeET": "20:00", "closeInstant": "2026-11-03T20:00:00-05:00" },
+      { "district": "NJ-07", "state": "NJ", "closeTimeET": "20:00", "closeInstant": "2026-11-03T20:00:00-05:00" },
+      { "district": "PA-01", "state": "PA", "closeTimeET": "20:00", "closeInstant": "2026-11-03T20:00:00-05:00" },
+      { "district": "PA-07", "state": "PA", "closeTimeET": "20:00", "closeInstant": "2026-11-03T20:00:00-05:00" },
+      { "district": "PA-08", "state": "PA", "closeTimeET": "20:00", "closeInstant": "2026-11-03T20:00:00-05:00" },
+      { "district": "PA-10", "state": "PA", "closeTimeET": "20:00", "closeInstant": "2026-11-03T20:00:00-05:00" },
+      { "district": "TX-09", "state": "TX", "closeTimeET": "20:00", "closeInstant": "2026-11-03T20:00:00-05:00" },
+      { "district": "TX-15", "state": "TX", "closeTimeET": "20:00", "closeInstant": "2026-11-03T20:00:00-05:00" },
+      { "district": "TX-28", "state": "TX", "closeTimeET": "20:00", "closeInstant": "2026-11-03T20:00:00-05:00" },
+      { "district": "TX-32", "state": "TX", "closeTimeET": "20:00", "closeInstant": "2026-11-03T20:00:00-05:00" },
+      { "district": "TX-34", "state": "TX", "closeTimeET": "20:00", "closeInstant": "2026-11-03T20:00:00-05:00" },
+      { "district": "TX-35", "state": "TX", "closeTimeET": "20:00", "closeInstant": "2026-11-03T20:00:00-05:00" },
+      { "district": "AZ-01", "state": "AZ", "closeTimeET": "21:00", "closeInstant": "2026-11-03T21:00:00-05:00" },
+      { "district": "AZ-06", "state": "AZ", "closeTimeET": "21:00", "closeInstant": "2026-11-03T21:00:00-05:00" },
+      { "district": "CO-05", "state": "CO", "closeTimeET": "21:00", "closeInstant": "2026-11-03T21:00:00-05:00" },
+      { "district": "CO-08", "state": "CO", "closeTimeET": "21:00", "closeInstant": "2026-11-03T21:00:00-05:00" },
+      { "district": "IA-01", "state": "IA", "closeTimeET": "21:00", "closeInstant": "2026-11-03T21:00:00-05:00" },
+      { "district": "IA-02", "state": "IA", "closeTimeET": "21:00", "closeInstant": "2026-11-03T21:00:00-05:00" },
+      { "district": "IA-03", "state": "IA", "closeTimeET": "21:00", "closeInstant": "2026-11-03T21:00:00-05:00" },
+      { "district": "NE-02", "state": "NE", "closeTimeET": "21:00", "closeInstant": "2026-11-03T21:00:00-05:00" },
+      { "district": "NY-17", "state": "NY", "closeTimeET": "21:00", "closeInstant": "2026-11-03T21:00:00-05:00" },
+      { "district": "WI-01", "state": "WI", "closeTimeET": "21:00", "closeInstant": "2026-11-03T21:00:00-05:00" },
+      { "district": "WI-03", "state": "WI", "closeTimeET": "21:00", "closeInstant": "2026-11-03T21:00:00-05:00" },
+      { "district": "MT-01", "state": "MT", "closeTimeET": "22:00", "closeInstant": "2026-11-03T22:00:00-05:00" },
+      { "district": "CA-22", "state": "CA", "closeTimeET": "23:00", "closeInstant": "2026-11-03T23:00:00-05:00" },
+      { "district": "CA-48", "state": "CA", "closeTimeET": "23:00", "closeInstant": "2026-11-03T23:00:00-05:00" }
+    ],
+    "senate": [
+      { "state": "FL", "label": "Florida", "closeTimeET": "19:00", "closeInstant": "2026-11-03T19:00:00-05:00", "hasSpecial": true },
+      { "state": "GA", "label": "Georgia", "closeTimeET": "19:00", "closeInstant": "2026-11-03T19:00:00-05:00" },
+      { "state": "SC", "label": "South Carolina", "closeTimeET": "19:00", "closeInstant": "2026-11-03T19:00:00-05:00" },
+      { "state": "NC", "label": "North Carolina", "closeTimeET": "19:30", "closeInstant": "2026-11-03T19:30:00-05:00" },
+      { "state": "OH", "label": "Ohio", "closeTimeET": "19:30", "closeInstant": "2026-11-03T19:30:00-05:00", "hasSpecial": true },
+      { "state": "ME", "label": "Maine", "closeTimeET": "20:00", "closeInstant": "2026-11-03T20:00:00-05:00" },
+      { "state": "NH", "label": "New Hampshire", "closeTimeET": "20:00", "closeInstant": "2026-11-03T20:00:00-05:00" },
+      { "state": "TX", "label": "Texas", "closeTimeET": "20:00", "closeInstant": "2026-11-03T20:00:00-05:00" },
+      { "state": "MI", "label": "Michigan", "closeTimeET": "20:00", "closeInstant": "2026-11-03T20:00:00-05:00" },
+      { "state": "MS", "label": "Mississippi", "closeTimeET": "20:00", "closeInstant": "2026-11-03T20:00:00-05:00" },
+      { "state": "IA", "label": "Iowa", "closeTimeET": "21:00", "closeInstant": "2026-11-03T21:00:00-05:00" },
+      { "state": "KS", "label": "Kansas", "closeTimeET": "21:00", "closeInstant": "2026-11-03T21:00:00-05:00" },
+      { "state": "MN", "label": "Minnesota", "closeTimeET": "21:00", "closeInstant": "2026-11-03T21:00:00-05:00" },
+      { "state": "NE", "label": "Nebraska", "closeTimeET": "21:00", "closeInstant": "2026-11-03T21:00:00-05:00" }
+    ],
+    "governor": [
+      { "state": "FL", "label": "Florida", "closeTimeET": "19:00", "closeInstant": "2026-11-03T19:00:00-05:00" },
+      { "state": "GA", "label": "Georgia", "closeTimeET": "19:00", "closeInstant": "2026-11-03T19:00:00-05:00" },
+      { "state": "VT", "label": "Vermont", "closeTimeET": "19:00", "closeInstant": "2026-11-03T19:00:00-05:00" },
+      { "state": "OH", "label": "Ohio", "closeTimeET": "19:30", "closeInstant": "2026-11-03T19:30:00-05:00" },
+      { "state": "ME", "label": "Maine", "closeTimeET": "20:00", "closeInstant": "2026-11-03T20:00:00-05:00" },
+      { "state": "MI", "label": "Michigan", "closeTimeET": "20:00", "closeInstant": "2026-11-03T20:00:00-05:00" },
+      { "state": "NH", "label": "New Hampshire", "closeTimeET": "20:00", "closeInstant": "2026-11-03T20:00:00-05:00" },
+      { "state": "TX", "label": "Texas", "closeTimeET": "20:00", "closeInstant": "2026-11-03T20:00:00-05:00" },
+      { "state": "MN", "label": "Minnesota", "closeTimeET": "21:00", "closeInstant": "2026-11-03T21:00:00-05:00" },
+      { "state": "OR", "label": "Oregon", "closeTimeET": "22:00", "closeInstant": "2026-11-03T22:00:00-05:00" }
+    ]
+  }
+}
